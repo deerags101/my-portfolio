@@ -13,8 +13,6 @@ import {
   FaLinkedinIn,
   FaInstagram,
   FaGithub,
-  FaYoutube,
-  FaTiktok,
 } from 'react-icons/fa'
 import { siteConfig } from '@/config/site'
 
@@ -48,23 +46,12 @@ const socialLinks = [
     link: siteConfig.socials.instagram,
   },
   {
-    title: 'Youtube',
-    user: '@youtube',
-    icon: FaYoutube,
-    link: siteConfig.socials.youtube,
-  },
-  {
     title: 'Github',
     user: '@github',
     icon: FaGithub,
     link: siteConfig.socials.github,
   },
-  {
-    title: 'TikTok',
-    user: '@tiktok',
-    icon: FaTiktok,
-    link: siteConfig.socials.tiktok,
-  },
+
 ]
 
 export default function ContactForm() {
