@@ -1,47 +1,29 @@
-// ============================================================
-// SITE CONFIG — edit this ONE file to make the portfolio yours
-// ============================================================
-// Every personal detail on the site (name, bio, links, contact
-// info) lives here. Nothing else in the codebase needs touching
-// unless you want to change the design itself.
-// ============================================================
-
 export const siteConfig = {
-  // Shown in browser tab / SEO
   meta: {
     title: "Deepanshu Raghuvanshi",
-    description: "Portfolio of Your Name — Frontend Developer",
+    description: "Portfolio of Deepanshu Raghuvanshi — MERN Stack Developer & Game Dev Enthusiast",
   },
-
-  // Navbar brand text (bottom-left "logo") + welcome screen domain pill
   brand: {
-    navbarText: "yourname.dev",
-    domainText: "www.yourname.vercel.app",
+    navbarText: "deepanshu.dev",
+    domainText: "www.deepanshu.vercel.app",
   },
-
-  // Hero section (the big landing text)
   hero: {
-    line1: "Frontend", // big heading line 1
-    line2: "Developer", // big heading line 2
-    roles: ["Junior Programmer", "Fresh Graduate", "Happy coding!"], // typing animation
-    skills: ["Typescript", "React.js", "Tailwind"], // pill badges
+    line1: "MERN Stack",
+    line2: "Developer",
+    roles: ["MERN Stack Developer", "Final Year CS Student", "Game Dev Enthusiast"],
+    skills: ["MongoDB", "Express", "React", "Node.js", "3ds Max"],
     description:
-      "Creating modern websites with a clean, responsive, and elegant look. Turning ideas and designs into engaging, easy-to-use digital experiences.",
+      "Building full-stack web applications with the MERN stack, currently working on a real estate platform with 3D visualization. Also exploring game development — learning 3D modeling in Blender, Maya, and 3ds Max, and building interactive experiences in Unity.",
     availableForWork: true,
   },
-
-  // About section
   about: {
-    // each string renders on its own line, e.g. first / middle / last name
-    nameLines: ["Your", "First", "Name"],
+    nameLines: ["Deepanshu", "Raghuvanshi"],
     bio:
-      "Fresh graduate with a passion for frontend development and modern UI. Focused on building clean, responsive websites with a strong visual identity to deliver the best digital experience.",
+      "Final-year B.Tech Computer Science student and MERN stack developer. Currently building a real estate platform with 3D visualization. Growing interest in game development — learning 3D modeling and design in Blender, Maya, and 3ds Max, and building interactive experiences in Unity.",
     quote: "Turning ideas into clean, modern, and meaningful digital experiences.",
-    cvUrl: "https://drive.google.com/your-cv-link-here",
+    cvUrl: "https://www.linkedin.com/in/deepanshu-raghuvanshi-9527562a1",
     profileImage: "/assets/PP.png",
   },
-
-  // Contact section
   contact: {
     heading: "Contact Me",
     subheading: "Let's build something great together.",
@@ -49,19 +31,13 @@ export const siteConfig = {
     formIntroText:
       "Feel free to reach out if you want to collaborate, discuss ideas, or simply say hello.",
   },
-
-  // Social links (shown in Contact section)
   socials: {
-    linkedin: "https://www.linkedin.com/in/your-username/",
-    instagram: "https://www.instagram.com/your-username",
-    youtube: "https://youtube.com/@your-username",
-    github: "https://github.com/your-username",
-    tiktok: "https://www.tiktok.com/@your-username",
+    linkedin: "https://www.linkedin.com/in/deepanshu-raghuvanshi-9527562a1",
+    instagram: "https://www.instagram.com/deepanshu._101",
+    github: "https://github.com/deerags101",
   },
-
-  // Footer
   footer: {
-    copyrightName: "Your Name",
+    copyrightName: "Deepanshu Raghuvanshi",
     year: 2026,
   },
 } as const;
